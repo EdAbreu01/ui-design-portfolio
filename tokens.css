@@ -1,0 +1,38 @@
+:root {
+
+/* Font Families */
+--font-heading: "DM Serif Text", serif;
+--font-subtitle: "DM Serif Text", serif;
+--font-body: "Google Sans Code", monospace;
+--font-body-bold: "Google Sans Code", monospace;
+
+/* Font Sizes */
+--font-heading-size: 3em;
+--font-subtitle-size: 1.9em;
+--font-body-size: 0.9em;
+
+
+/* Line Height */
+--line-heading: 1.1;
+--line-subtitle: 1.3;
+--line-body: 2.5;
+
+/* Text */
+--color-heading: rgb(68, 68, 68);
+--color-subtitle:rgb(97, 97, 97); 
+--color-body: rgb(113, 113, 113);
+--color-body-bold:  rgb(28, 28, 28);
+
+
+
+
+/*HEADING*/
+
+--heading-text: var(--font-heading-size) var(--line-heading) var(--color-heading);
+
+--body-text: var(--font-body-size) / var(--line-body) var(--color-body);
+
+
+
+}
+
