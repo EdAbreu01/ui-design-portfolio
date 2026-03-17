@@ -113,6 +113,13 @@ a {
     margin-bottom: 24px; 
 }
 
+.end__text{   
+    line-height: var(--line-body);
+    color: var(--color-body);
+    font-size: var(--font-body-size); 
+    margin-top: 42px; 
+}
+
 .project__container{
     margin: 0 auto;
     margin-top: 40px;
@@ -140,6 +147,8 @@ a {
     font-size: var(--font-body-size);
     color: rgb(176, 176, 176);
     margin-bottom: 28px;
+
+    
   
 }
 
