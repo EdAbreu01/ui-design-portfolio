@@ -149,7 +149,7 @@ a {
 .project__card_link{
     width: 100%;
     height: 240px;
-    background-image: url(project_1/EcoCycle-Case-cover.jpg);
+    background-image: url(project_1/EcoCycle-Case-cover.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:120%;
@@ -162,6 +162,21 @@ a {
         transition: 0.25s;
 
     }
+}
+
+    .project__card_link2{
+    width: 100%;
+    height: 240px;
+    background-image: url(project_1/EcoCycle-Case-cover-UC.PNg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:120%;
+
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+
+
 
 
 }
