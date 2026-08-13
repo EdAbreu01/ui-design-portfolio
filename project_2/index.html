@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+    <title>Estudio de diseno</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Soluciones de diseño enfocado en claridad, estética y estrategia.">
+    <meta name="theme-color" content="#0080ff">
+
+    <meta name="description" content="">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/jpg" href="--FORMULAR----------">
+    <!--INVESTIGAR ETIQUETAS OPEN GRAPHS-->
+    <!--REL ALTE4NATE CANONICAL -->
+    <!--<link rel="stylesheet"  href="styles.css">--> 
+    <link rel="stylesheet"  href="tokens.css">
+    <link rel="stylesheet"  href="responsiveness.css">
+
+</head>
+
+
+<body>
+
+
+    <!--H E A D E R ------------------------------------------->
+    <header class="site-header">
+        <div class="site-header__container">
+
+            <a class="home-logo" href="index.html"> 
+            <img src="icons/Juglar-logo-2-grad.png" width="142px" height="auto" alt="logo-juglar" > 
+            </a>
+
+            <nav class="site-nav">
+                
+                <a class="site-nav__link" href="#portfolio">Work</a>
+                <a class="site-nav__link" href="#about">About</a>
+                <a class="site-nav__link" href="#services" class="btn">Services</a>
+
+                <span class="availability" aria-label="Disponible para nuevos proyectos">
+                    <span class="availability__dot"></span>
+                    <span class="availability__text" >Open for work </span>
+                </span>
+
+                    <!--FUNCION PARA EL JS-->                
+                    <script> 
+                        function enviarCorreo(){
+                        window.location.href = "mailto:eddabreu@gmail.com";}
+                    </script>
+
+                <button type="button" onclick="enviarCorreo()" class="header__actions-btn--primary">Start a Project</button>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menú" aria-controls="nav" aria-expanded="false"> ☰ </button>
+
+        </div>
+    </header>
+
+<main>
+
+
+
+    <!--H E R O ------------------------------------------->
+    <section id="hero" class="hero">
+                        
+        <div class="hero__container">
+            <h1>Your Creative <br>Partners.</h1>
+            <h3 class="hero__subtitle">who understands how to turn ideas <br>into visuals that truly move people.</h3>
+            <div class="hero__actions">
+                <button onclick="enviarCorreo()" class="hero__actions-btn--primary">Start a Project</button>
+                <a class="hero__actions-btn--secondary" href="#portfolio"> View Selected Work</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <!--S E R V I C E S ---------------------------------->
+        <section id="services" class="services">
+            <div class="services-container">
+                <header class="services-container-header">
+                    <p class="section-title">Expertise</p>
+                    <h2 class="section-header">Comprehensive design solutions tailored for modern businesses</h2>
+                </header>
+                <ul class="services-grid">
+                    <li class="services-card">
+                        <article>
+                            <img class="services-icon" src="icons\brand-badge (1).svg" width="34">
+                            <h3>Branding and Identity</h3>
+                            <p>Crafting memorable brand systems that stand the test of time across all touchpoints</p>
+                        </article>
+                    </li>
+
+                    <li class="services-card">
+                        <article>
+                            <img class="services-icon" src="icons\book-alt.png" width="31">
+                        <!--   <svg class="services-icon" xmlns="http://www.w3.org/2000/svg" 
+                            width="24" height="24" viewBox="0 0 24 24" 
+                            fill="none" stroke="currentColor" 
+                            stroke-width="2" stroke-linecap="round" 
+                            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path 
+                            d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" />
+                            <path d="M21 6l0 13" /></svg>--> 
+                            
+                            <h3>Editorial Design</h3>
+                            <p>Layouts that tell compelling stories. From annual reports to digital magazines.</p>
+                        </article>
+                    </li>
+
+                    <li class="services-card">
+                        <article>
+                            <img class="services-icon" src="icons\website-design.svg" width="32">
+                            <h3>Digital Design</h3>
+                            <p>Engaging social assetsm web graphics, and motion design that capture atention.</p>
+                        </article>
+                    </li>
+
+                    <li class="services-card">
+                        <article>
+                            <img class="services-icon" src="icons\camera-viewfinder.svg" width="30">
+                            <h3>Photography</h3>
+                            <p>Photorealistic renders to elevate product presentation</p>
+                        </article>
+                    </li>
+                    
+                    <li class="services-card">
+                        <article>
+                            <img class="services-icon" src="icons\paintbrush-pencil.svg" width="30">
+                            <h3>Illustration</h3>
+                            <p>Custom artwork and iconography to help your brand stand out the noise.</p>
+                        </article>
+                    </li>
+                    
+                    <li class="services-card-highlight">
+                        <article>
+                            <h3>Need something specific?</h3>
+                            <p>I tailor my approach to your unique business goals.</p>
+                            <button class="hero__actions-btn--primary">Contact me</button>
+                        </article>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+
+
+         <!--Q U O T E ---------------------------------->
+         <section id="quote " class="quote">
+            <h2> * <br>Design isn't just decoration; it's<b> business strategy </b> made visible. I partner with companies to solve problems through visual language. <br> ____
+            </h2>
+         </section>
+
+
+
+          <!--P R O J E C T S ---------------------------------->
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio-container">
+                <header>
+                    <p class="section-title">Portfolio</p>
+                    <h2 class="section-header">Selected Work</h2>
+                </header>
+
+                <div class="portfolio-project">
+                    <article class="portfolio-project-card">
+                    <img class="project-pic" 
+                    src="icons\Cemdoe-1--Project.jpg">
+                    <h3>CEMDOE </h3>
+                    <p>1st anniversary campaign</p>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                    <img class="project-pic" 
+                    src="icons\Editorial.jpg">
+                    <h3>Editorial Projects</h3>
+                    <p>A selection of our most relevant editorial work</p>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                    <img class="project-pic" 
+                    src="icons\third.jpg">
+                    <h3>Architecture Firm Moodboard</h3>
+                    <p>Take into account all the brand details</p>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                    <img class="project-pic" 
+                    src="icons\32.jpg">
+                    <h3>Event Projection</h3>
+                    <p>We boost the experience in your events</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+         <!--A B O U T ---------------------------------->
+        <section id="about" class="about">
+            <article class="about-container">
+                
+                <img class="about-photo" src="icons\ChatGPT Image Feb 12, 2026, 11_13_28 PM.png">
+                <spam class="about-info" >
+                    <p class="section-title">About me</p>
+                    <h2 class="section-header-about">More than a designers.<br> Strategic partners.</h2>
+                    <p class="about-description">We're a multidisciplinary design studio based in Santo Domingo 
+                    and bridge the gap between creative vision and business goals.We immerse ourselves in your business, your goals, and your challenges to craft solutions that are not only visually compelling, but strategically effective.
+
+From brand foundations to digital experiences, every decision we make is guided by purpose, performance, and long-term impact.
+                </p>
+                </spam>
+            </article>
+        </section>
+
+</main>
+
+
+
+
+        <!--A B O U T ---------------------------------->
+    <footer class="footer-section">
+        <div class="footer-container">
+                <h1 class="footer-title">Ready to build<br> something iconic?</h2>
+                <p>We're currently accepting new projects for Q1 2024.
+                <br> Let's discuss how we can elevate your brand.
+                </p>
+                <div>
+                    <a href="mailto:eddabreu@gmail.com" ><h2 class="footer-email-section">hello@juglardesign.com</h2></a>
+                </div>
+            <div class="footer-lastline">  
+
+                                <img src="icons/Juglar-logo-2-grad.png" width="142px"> 
+
+  
+                <div class="footer-contact-section">
+                    <a href="www.linkedin.com">Linkedin</a>
+                    <a href="www.instagram.com">Instagram</a>
+                    <a href="www.dribble.com">Dribble</a>
+                    <a href="www.juglardesign.com/blog">Blog</a>
+                </div>
+            </div>
+               <!-- <small>Todos los derechos reservados. 2026</small>
+                -->
+        </div>
+    </footer>
+
+    <script href="script.js" defer></script>
+</body>
+
+
+</html>

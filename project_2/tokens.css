@@ -1,0 +1,22 @@
+ :root {
+    /* COLOR PALETTE*/
+    --RoyalBlue-Primary:#1D56C9;
+    --Midnight-Bg-Dark:#111621;
+    --Slate-Secondary:#506795;
+    --Vapor-Bg-Light:#F6F6F8;
+
+    /* TYPOGRAPHY */
+    --font-base: 'Manrope', sans-serif;
+     
+    /*SIZING*/
+    --Display-XL: 70px;
+    --Heading-L: 36px ;
+    --Heading-M: 1.5rem;
+    --Body: 0.90rem;
+
+    /* BORDER RADIUS */
+    --Small:4px;
+    --Medium:8px;
+    --Large:16px;
+    --Pill:999px;
+}
